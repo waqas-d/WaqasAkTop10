@@ -1,8 +1,12 @@
 body {
-    background-image: url(../assets/gr-stocks-q8P8YoR6erg-unsplash.jpg);
+    background-image: url(../assets/backgroundimage.jpg);
     background-size: cover;
 }
 
 h1 {
     text-align: center;
+}
+
+.bodycolor {
+    background-color: black;
 }

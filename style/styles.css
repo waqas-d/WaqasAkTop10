@@ -2,42 +2,72 @@ body {
     background-image: url(../assets/backgroundimage.jpg);
     background-size: cover;
 }
-
-h1 {
-    text-align: center;
+@font-face {
+    font-family: irish;
+    src: url(../assets/IrishGrover-Regular.ttf);
 }
-
-.cardstyle {
-    border: black;
-    height: 600p
-}
-
-.cardimgstyle {
-   height: 210px;
-   width: 288px;
-}
-
-.cardbodystyle {
+h2{
+    font-size: 80px;
     background-color: black;
-    height: 250px;
-}
-
-.cardtitlestyle {
     color: white;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    font-family: irish;
 }
 
-.cardtextstyle {
-    color: white;
-    text-align: center;
-    font-size: 14px
-}
 
-.cardbtnstyle {
-    width: 140px;
-    height: 38px;
-    /* display: flex;
-    justify-content: center; */
-    vertical-align: top;
     
+
+.cardbodystyle{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
 }
+.cardtitlestyle{
+    color: white;
+    text-align: center;
+    
+
+}
+.cardtextstyle{
+    color:white;
+    text-align: center;
+}
+.GOTBtn{
+    margin-top:46px ;
+}
+.RMBtn{
+    margin-top: 80px;
+}
+.OBtn{
+    margin-top: 35px;
+}
+.GVBtn{
+    margin-top: 48px;
+}
+.FBtn{
+    margin-top: 24px;
+}
+.NBtn{
+    margin-top: 16px;
+}
+.LBtn{
+    margin-top: 43px;
+}
+.secondRow{
+    margin-left: 45px;
+}
+.firstRow{
+    margin-left: 45px;
+}
+.mainmenu{
+    margin-left: 830px;
+    font-size: 45px;
+    background-color: black;

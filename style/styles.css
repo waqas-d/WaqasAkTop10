@@ -7,14 +7,19 @@ h1 {
     text-align: center;
 }
 
+.cardstyle {
+    border: black;
+    height: 600p
+}
+
 .cardimgstyle {
-    max-height: 100%;
-    max-width: 100%;
-    vertical-align: middle;
+   height: 210px;
+   width: 288px;
 }
 
 .cardbodystyle {
     background-color: black;
+    height: 250px;
 }
 
 .cardtitlestyle {
@@ -25,9 +30,14 @@ h1 {
 .cardtextstyle {
     color: white;
     text-align: center;
+    font-size: 14px
 }
 
 .cardbtnstyle {
-    display: flex;
-    justify-content: center;
+    width: 140px;
+    height: 38px;
+    /* display: flex;
+    justify-content: center; */
+    vertical-align: top;
+    
 }

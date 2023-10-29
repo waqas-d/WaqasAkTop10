@@ -6,6 +6,19 @@ body {
     font-family: irish;
     src: url(../assets/IrishGrover-Regular.ttf);
 }
+h1{
+    font-family: irish;
+    font-size: 95px;
+    background-color: black;
+    color:white;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+
+
 h2{
     font-size: 80px;
     background-color: black;
@@ -71,3 +84,51 @@ h2{
     margin-left: 830px;
     font-size: 45px;
     background-color: black;
+}
+.IBtn{
+    margin-top: 72px;
+}
+.WMBtn{
+    margin-top: 67px;
+}
+.FFBtn{
+    margin-top: 24px;
+}
+.TDBtn{
+    margin-top: 65px;
+}
+.GBtn{
+    margin-top: 54px;
+}
+.SBtn{
+    margin-top: 51px;
+}
+.TRBtn{
+    margin-top: 95px;
+}
+.TBtn{
+    margin-top: 60px;
+}
+.Titlebtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+.Akbtn{
+    color: white;
+    background-color: black;
+    font-size: 75px;
+    font-family: irish;
+    
+
+}
+.Wbtn{
+    color: white;
+    background-color: black;
+    font-size: 75px;
+    font-family: irish;
+
+}
